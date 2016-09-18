@@ -30,9 +30,9 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="org.rgo.PluginAction" class="org.rgo.PluginAction" text="Out Of Braces">
+    <action id="org.rgo.PluginAction" class="org.rgo.PluginAction" text="Out of Braces">
       <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-      <keyboard-shortcut keymap="$default" first-keystroke="shift PERIOD"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift SPACE"/>
     </action>
   </actions>
 

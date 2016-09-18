@@ -1,0 +1,39 @@
+<idea-plugin version="2">
+  <id>org.rgo.brackets-plugin</id>
+  <name>IDEA brackets plugin</name>
+  <version>0.1</version>
+  <vendor email="royg21@gmail.com" url="">Roy Golan</vendor>
+
+  <description><![CDATA[
+      Add a shortcut to take the caret out of brackets.<br>
+      <em>Supports Java</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="org.rgo">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="org.rgo.PluginAction" class="org.rgo.PluginAction" text="Out Of Braces">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift PERIOD"/>
+    </action>
+  </actions>
+
+</idea-plugin>

@@ -1,5 +1,5 @@
 # idea-braces-plugin
-A plugin to move the caret to the end of braces, for fluent typing. For long time this functionality is missing form idea and the rest of the lanuage flavoured IDEs based on it.
+A plugin to move the caret to the end of braces, for fluent typing. For long time this functionality is missing from IDEA and the rest of the lanuage flavoured IDEs based on it.
 
 Currently when you hit `Shift+Period` the caret will be placed after the right caret.
 
